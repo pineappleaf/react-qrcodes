@@ -7,6 +7,8 @@ node_modules
 build
 dist
 
+example
+
 package-lock.json
 
 docs/.next

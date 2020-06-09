@@ -291,3 +291,19 @@ How to contribute:
 ## ⚖️ License
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!--
+
+const wrh = img.width / img.height;
+let dWidth = canvas.width;
+let dHeight = dWidth / wrh;
+if (dHeight > canvas.height) {
+  dHeight = canvas.height;
+  dWidth = dHeight * wrh;
+}
+const dx = dWidth < canvas.width ? ((canvas.width - dWidth) / 2) : 0;
+const dy = dHeight < canvas.height ? ((canvas.height - dHeight) / 2) : 0;
+
+ctx.drawImage(img, dx, dy, dWidth, dHeight);
+
+-->
